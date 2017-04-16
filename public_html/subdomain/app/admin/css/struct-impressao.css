@@ -1,0 +1,39 @@
+body { font-family: Arial, sans-serif; }
+.container { width: 21cm; max-height: 28.7cm; }
+
+.cabecalho {overflow: hidden; margin-bottom: 20px; }
+.cabecalho .imagem { height: 130px; width: 350px; position: relative; margin-left: 40px; }
+.cabecalho .logo { max-height: 130px; max-width: 350px; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; margin: auto 0; }
+.cabecalho .info-empresa { text-align: right; margin-top: 20px; }
+.cabecalho .info-empresa * { margin: 0; line-height: 1.5em; }
+
+.row { margin-left: 0; }
+[class*="span"] { margin: 0 0.25cm; }
+.span1 { width: 1.25cm; }
+.span2 { width: 3cm; }
+.span3 { width: 4.75cm; }
+.span4 { width: 6.5cm; }
+.span5 { width: 8.25cm; }
+.span6 { width: 10cm; }
+.span7 { width: 11.75cm; }
+.span8 { width: 13.5cm; }
+.span9 { width: 15.25cm; }
+.span10 { width: 17cm; }
+.span11 { width: 18.75cm; }
+.span12 { width: 20.5cm; }
+
+.etiqueta { border: 1px dashed #a7a7a7; padding: 0.4cm; margin: 1.2cm 0 1cm; background: #FFF; min-height: 3.2cm; position: relative; }
+.etiqueta.span6 { margin-right: -1px; margin-left: 1cm; }
+.etiqueta .imagem-logo { float: left; width: 3.17cm; height: 3.17cm; margin-right: 0.4cm; position: relative; }
+.etiqueta .imagem-logo img { width; auto: height: auto; max-width: 3.17cm; max-height: 3.17cm; position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto; }
+.etiqueta p { margin: 0.2cm 0 0.2cm 0.2cm; }
+.etiqueta .tit { display: block; font-size: 14pt; margin-bottom: 0.1cm; }
+.etiqueta .tesoura { position: absolute; top: 0; left: -0.68cm; }
+
+.linha-recorte { border-top: 3px dashed #DDD; display: block; clear: both; margin: 35px 0; }
+
+.recibo { /* border: 1px solid #CCC; margin: -1px; */ }
+.recibo { font-size: 0.9em; } 
+.recibo .corpo { overflow: hidden; margin-bottom: 15px; }
+.recibo .corpo .pull-left { margin-left: 1cm; }
+.recibo .corpo .pull-right { margin-right: 1cm; }

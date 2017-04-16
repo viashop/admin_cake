@@ -1,0 +1,19 @@
+
+use Correios\Calculos\Ect\Prdt\ECTFormatos as ECTFormatos;
+use Correios\Calculos\Ect\Prdt\ECTServicos as ECTServicos;
+
+$ect = new \Correios\Calculos\Ect\ECT();
+$prdt = $ect->prdt();
+$prdt->setNVlAltura( 10 );
+$prdt->setNVlComprimento( 20 );
+$prdt->setNVlLargura( 20 );
+$prdt->setNCdFormato( ECTFormatos::FORMATO_CAIXA_PACOTE );
+$prdt->setNCdServico(  implode( ',' , array( ECTServicos::PAC , ECTServicos::SEDEX ) ) );
+$prdt->setSCepOrigem( '09641030' );
+$prdt->setSCepDestino( '78400000' );
+$prdt->setNVlPeso( 29.9 );
+
+foreach ( $prdt->call() as $servico ) {
+	
+	printf( "O preço do frete do correios é R$ %.02f\n<br />" , $servico->Valor );
+}

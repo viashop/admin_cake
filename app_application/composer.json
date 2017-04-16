@@ -1,0 +1,65 @@
+{
+  "name": "site.com.br",
+  "authors": [
+    {
+      "name": "William Duarte",
+      "email": "wsduarte@hotmail.com"
+    }
+  ],
+  "minimum-stabilty": "alpha",
+   "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "CpanelInc/xmlapi-php",
+        "version": "v1.0.13",
+        "dist": {
+          "url": "https://github.com/CpanelInc/xmlapi-php/archive/v1.0.13.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url": "git@github.com:CpanelInc/xmlapi-php.git",
+          "type": "git",
+          "reference": "tags/v1.0.13"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/smottt/WideImage.git",
+      "type": "git"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.6",
+    "phpmailer/phpmailer": "~5.2",
+    "PHPOffice/PHPExcel": "*",
+    "pimple/pimple": "3.0.*",
+    "cakephp/cakephp": "2.8.*",
+    "CpanelInc/xmlapi-php": "v1.0.13",
+    "smottt/wideimage": "dev-master",
+    "respect/validation": "dev-master"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AppVialoja\\": "src/AppVialoja/",
+      "Cpanel\\": "3rdparty/CpanelInc/xmlapi-php/",
+      "ShoppingVialoja\\": "src/ShoppingVialoja/",
+      "StoreVialoja\\": "src/StoreVialoja/",
+      "Correios\\": "../src/Correios/",
+      "CSRF\\": "../src/CSRF/",
+      "Cart\\": "../src/Cart/",
+      "Commons\\": "../src/Commons/",
+      "Email\\": "../src/Email/",
+      "Exception\\": "../src/Exception/",
+      "Lib\\": "../src/Lib/",
+      "PHPOffice\\": "../src/PHPOffice/"
+    }
+  },
+  "config": {
+    "vendor-dir": "3rdparty"
+  }
+}

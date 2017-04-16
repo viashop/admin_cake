@@ -1,0 +1,3 @@
+Options -Indexes
+
+ErrorDocument 403 http://cdn.vialoja.com.br/error-403/index.html

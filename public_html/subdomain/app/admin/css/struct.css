@@ -1,0 +1,11 @@
+#globalContainer { padding: 35px 0; }
+
+#leftCol { width: 200px; float: left; position: relative; transition: all 0.2s; }
+#leftCol .col_shadow { display: block; width: 15px; position: absolute; z-index: 2; top: -20px; bottom:18px; right: 0; background:url(../img/col_shadow.png) repeat-y right top; border-right: 1px solid #DDD; }
+
+#mainContent { width: auto; margin-left: 220px; transition: margin 0.2s; }
+.no-col #mainContent { margin: 0; }
+
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container { width: auto; padding: 0 20px; width: 1140px; }
+
+.body.container { padding-top: 20px; }

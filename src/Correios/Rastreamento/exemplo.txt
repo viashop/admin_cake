@@ -1,0 +1,13 @@
+try {
+
+	$track = new \Correios\Rastreamento\TrackingHtml();
+	$track->setCodeTrack('PI205094504BR');
+	echo $track->getHtmlTrack();
+	
+} catch (LengthException $e) {
+	echo $e->getMessage();
+} catch (RuntimeException $e) {
+	echo $e->getMessage();	
+} catch (Exception $e) {
+	//echo $e->getMessage();
+}

@@ -1,0 +1,639 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt_BR" class="no-js">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="pt-br">
+        <title>Estatística de uso da sua conta - Loja Integrada</title>
+        <link rel="shortcut icon" href="//cdn.awsli.com.br/static/whitelabel/lojaintegrada/img/icone.png">
+        <link rel="apple-touch-icon" href="//cdn.awsli.com.br/static/admin/apple-touch-icon.png">
+        <link rel="stylesheet" href="//cdn.awsli.com.br/static/admin/css/bootstrap-fixed.css?v=3.1.1" type="text/css">
+        <link rel="stylesheet" href="//cdn.awsli.com.br/static/admin/css/bootstrap-theme.min.css" type="text/css">
+        <link rel="stylesheet" href="//cdn.awsli.com.br/static/admin/css/bootstrap-datepicker.css" type="text/css">
+        <link rel="stylesheet" href="//cdn.awsli.com.br/static/admin/css/jquery.switch.css" type="text/css">
+        <link rel="stylesheet" href="//cdn.awsli.com.br/static/admin/css/jquery.fancybox.css" type="text/css">
+        <link rel="stylesheet"  href="//cdn.awsli.com.br/static/admin/css/menu.css" type="text/css" />
+        <link rel="stylesheet" href="//cdn.awsli.com.br/static/admin/css/custom.css" type="text/css">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,300,700" type="text/css">
+        <script type="text/javascript">
+            MEDIA_URL = '//cdn.awsli.com.br/';
+            ADMIN_STATIC_URL = '//cdn.awsli.com.br/static/admin/';
+            STATIC_URL = '//cdn.awsli.com.br/static/admin/';
+            MERCADOLIVRE_CLIENT_ID = '824492472157970';
+        </script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery-migrate-1.1.1.min.js"></script>
+        <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/excanvas.min.js"></script><![endif]-->
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery-ui.min.js?v=1.10.2"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/bootstrap.min.js?v=3.1.1"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/bootstrap-datepicker.js?v=20130312"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/bootbox.min.js"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery.mousewheel.js?v=3.0.6"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery.iframe-transport.js?v=20130322"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery.maskedinput.js?v1.3.1"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery.fancybox.pack.js?v=2.1.3"></script>
+        <!-- <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery-url-min.js"></script> -->
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/footable.js"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/main.js"></script>
+        <script type="text/javascript" src="//cdn.awsli.com.br/static/admin/js/jsoneditor.min.js"></script>
+        <script type="text/javascript">
+            apelido_conta = 'gosts';
+        </script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-29821837-1']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+    </head>
+    <body class=" loja-gratuita lojaintegrada">
+        <div class='black-overlay hide'></div>
+        <div id="globalContainer">
+        <div id="mainNav" class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#controle-navegacao">
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                    <div class="integrado navbar-brand">
+                        <a href="/painel">
+                        <img class="icone-padrao" src="//cdn.awsli.com.br/static/whitelabel/lojaintegrada/img/icone.png" alt="Loja Integrada" />
+                        </a>
+                    </div>
+                    <span class="visible-xs store-name-mobile">
+                    Loja 2
+                    </span>
+                </div>
+                <div class="collapse navbar-collapse" id="controle-navegacao">
+                    <ul class="nav navbar-nav base-menu hidden-xs">
+                        <li class="dropdown store">
+                            <a href="#" class="dropdown-toggle store-name" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-home visible-xs"></span>
+                            <span class="name-inner">
+                            Loja 2
+                            </span>
+                            <i class="caret"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a target='_blank' href="http://gosts.lojaintegrada.com.br">Ir para a loja</a></li>
+                                <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/dados/editar">Dados da Loja</a></li>
+                                <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/editar">Dados de Cobrança</a></li>
+                                <li class="divider"></li>
+                                <li class="menu-topic"><b><span class="glyphicon glyphicon-user"></span> Joanilson Souza</b></li>
+                                <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/usuario/alterar_senha">Senha</a></li>
+                                <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/usuario/85906/detalhar">Dados Cadastrais</a></li>
+                                <li class="hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/logout">Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="menu-main-ul nav navbar-nav">
+                        <li class="section-green dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-usd visible-xs"></span><span> Vendas</span><i class="caret"></i></a>
+                            <div class="sub-menu dropdown-menu">
+                                <span class="caret custom-caret"> <span class="caret"></span><span class="caret"></span> </span>
+                                <div class="menu-container">
+                                    <ul>
+                                        <li class="search">
+                                            <form class="input-container" action="/admin/pedido/listar" method="get">
+                                                <input type="text" class="form-control" id="q" name="q" placeholder="Buscar pedidos" />
+                                                <button><span class="glyphicon glyphicon-search"></span></button>
+                                            </form>
+                                        </li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/pedido/listar"></i>Pedidos</a></li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class="menu-topic hidden-xs"><b><span class="glyphicon glyphicon-user"></span> Clientes</b></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/cliente/listar">Clientes</a></li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class="menu-topic hidden-xs"><b><span class="glyphicon glyphicon-folder-open"></span>&nbsp; Relatórios</b></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/relatorio/">Visão geral</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="section-orange dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart visible-xs"></span><span> Produtos</span><i class="caret"></i></a>
+                            <div class="sub-menu dropdown-menu">
+                                <span class="caret custom-caret"> <span class="caret"></span><span class="caret"></span> </span>
+                                <div class="menu-container">
+                                    <ul>
+                                        <li class="search">
+                                            <form class="input-container" action="/admin/catalogo/produto/buscar" method="get">
+                                                <input type="text" class="form-control" name="q" placeholder="Buscar produtos" />
+                                                <button><span class="glyphicon glyphicon-search"></span></button>
+                                            </form>
+                                        </li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/catalogo/produto/listar">Listar</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/catalogo/produto/criar">Criar</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/catalogo/produto/importar">Importar</a></li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class="menu-topic hidden-xs"><b><span class="glyphicon glyphicon-th-large"></span>&nbsp; Organizar</b></li>
+                                        <li class=" hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/catalogo/categoria/listar">Categorias</a></li>
+                                        <li class=" hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/catalogo/marca/listar">Marcas</a></li>
+                                        <li class=" hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/catalogo/grade/listar">Grades</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="section-red dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-stats visible-xs"></span><span> Marketing</span><i class="caret"></i></a>
+                            <div class="sub-menu dropdown-menu">
+                                <span class="caret custom-caret"> <span class="caret"></span><span class="caret"></span> </span>
+                                <div class="menu-container">
+                                    <ul>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/marketing/cupom/listar">Cupons de desconto</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/marketing/frete_gratis/editar">Frete grátis</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/marketing/newsletter/listar">Lista de e-mails</a></li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class="menu-topic hidden-xs"><b><span class="glyphicon glyphicon-sort"></span>&nbsp; Integrações</b></li>
+                                        <li class=" hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/configuracao/app/listar">Apps</a></li>
+                                        <li class=" hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/redes_sociais">Redes Sociais</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/configuracao/facebook">Loja no Facebook</a></li>
+                                        <li class=" hidden-xs"><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/certificado">Certificado Digital</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/selos">Selos</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/marketplace/mercadolivre">MercadoLivre</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="section-blue dropdown active last">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-wrench visible-xs"></span><span> Minha loja</span><i class="caret"></i></a>
+                            <div class="sub-menu dropdown-menu divided">
+                                <span class="caret custom-caret"> <span class="caret"></span><span class="caret"></span> </span>
+                                <div class="menu-container">
+                                    <ul class="hidden-xs">
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/dados/editar">Dados da loja</a></li>
+                                        <li class="divider"></li>
+                                        <li class="menu-topic"><b><span class="glyphicon glyphicon-pencil"></span>&nbsp; Aparência</b></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/alterar_logo/">Logo</a></li>
+                                        <li class="">
+                                            <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/galeria" >Upload de arquivos</a>
+                                        </li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/marketing/banner/listar">Banners</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/tema/editar">Visual da página</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/pagina/listar">Páginas de contéudo</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/configuracao/html/editar/basico">Incluir código HTML</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/tema/css/editar">Editar CSS</a></li>
+                                        <li><a href="http://gosts.lojaintegrada.com.br/documentacao" target="_blank">Documentação <span class="glyphicon glyphicon-share"></span></a></li>
+                                    </ul>
+                                    <ul>
+                                        <li class="menu-topic hidden-xs"><b><span class="glyphicon glyphicon-cog"></span> Configurações</b></li>
+                                        <li class=" visible-xs"><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/dados/editar">Dados da loja</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/configuracao/editar">Gerais</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/configuracao/pagamento/listar">Formas de pagamento</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/configuracao/envio/listar">Formas de envio</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/usuario/listar">Usuários</a></li>
+                                        <li class="hidden-xs "><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/exportar">Exportar dados</a></li>
+                                        <li class="divider hidden-xs"></li>
+                                        <li class="menu-topic hidden-xs"><b><span class="glyphicon glyphicon-usd"></span>&nbsp; Meu plano</b></li>
+                                        <li class="hidden-xs active"><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/uso">Situação de sua conta</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/editar">Dados para cobrança</a></li>
+                                        <li class=""><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/cobranca">Dados de fatura</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="section-red visible-xs"><a href="<?php echo VIALOJA_PAINEL ?>/logout"><span class="glyphicon glyphicon-off visible-xs"></span><span> Sair</span></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right base-menu hidden-sm hidden-xs">
+                        <li class="dropdown ajuda">
+                            <a href="#modal-ajuda" data-toggle='modal'><i class="icon-custom icon-big icon-white icon-question"></i></a>
+                        </li>
+                    </ul>
+                    <!-- .nav -->
+                    <ul class="pull-right hidden-sm hidden-xs seja-pro">
+                        <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/uso" class="btn btn-warning">Seja <b>PRO</b></a></li>
+                    </ul>
+                </div>
+                <!-- #conrole-navegacao -->
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .navbar -->
+        <div class="body container">
+            <div id="mainContent">
+                <div class="bread-container">
+                    <ul class="breadcrumb">
+                        <li><a href="/painel"><i class="icon-custom icon-engine hidden-xs"></i> Painel</a> <span class="bread-separator">-</span></li>
+                        <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/dados/editar"><i class="icon-briefcase hidden-xs"></i> Minha loja</a> <span class="bread-separator">-</span></li>
+                        <li><a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/uso"><i class="icon-charging icon-custom hidden-xs"></i> Meu plano</a> <span class="bread-separator">-</span></li>
+                        <li><span>Estatística de uso da sua conta</span></li>
+                    </ul>
+                </div>
+                <div class="box dados-consumo">
+                    <div class="box-header">
+                        <h3>Dados de consumo</h3>
+                    </div>
+                    <div class="box-content">
+                        <div class="row plano">
+                            <div class="col-sm-6">
+                                <h1>Plano 1 <small> R$ 0,00</small></h1>
+                            </div>
+                            <div class="col-sm-6">
+                                <a class="btn btn-default btn-xs pull-right" href="#planos" title="Alterar plano da sua loja."><span class="glyphicon glyphicon-edit"></span> Alterar plano</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="linha situacao">
+                                    <strong><i class="icon-custom icon-engine"></i>Situação da loja:</strong>
+                                    <span class="label label-important pull-right">Suspensa</span> &nbsp;
+                                    <p> <small>
+                                        Não identificamos o pagamento deste ciclo da sua mensalidade.<br/>
+                                        Para regularizar, é necessário que você escolha uma das ações abaixo:
+                                        </small>
+                                    </p>
+                                    <p>
+                                        <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/plano/1/assinar" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-ok"></span> Continuar no Plano 1</a>
+                                        <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/plano/1/assinar" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span> Voltar para o plano gratuito *</a>
+                                    </p>
+                                    <hr/>
+                                    <span class="text-error"><small> * Os limites do plano gratuito serão aplicado na sua loja. Caso você tenha mais que 50 produtos ativos, o sistema desativará os produtos excedentes, estes produtos não serão removidos, eles ficarão apenas desativados.</small> </span>
+                                </div>
+                                <div class="linha">
+                                    <strong><i class="icon-dollar icon-custom"></i>Mensalidade</strong>
+                                    <span class="pull-right">R$ 0,00</span>
+                                </div>
+                                <div class="linha">
+                                    <strong><i class="icon-notification icon-custom"></i>Ciclo do plano</strong>
+                                    <span class="pull-right"> 07/06/2014 a 06/07/2014
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="linha consumos">
+                                    <div class="row consumo-status">
+                                        <div class="col-xs-6">
+                                            <div class="item-consumo produtos">
+                                                <i class="hidden-xs icon-produtos icon-custom"></i>
+                                                <span class="info text-right">
+                                                <strong>2 de 50</strong>
+                                                <span>Produtos ativos</span>
+                                                </span>
+                                                <span class="percent">4%</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="item-consumo trafego">
+                                                <i class="hidden-xs icon-trafego icon-custom"></i>
+                                                <span class="info text-right">
+                                                <strong>656,2 KB</strong>
+                                                <span>Tráfego total 2,0 GB </span>
+                                                </span>
+                                                <span class="percent">0%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="linha">
+                                    <div class="titulo-linha">
+                                        <strong><i class="icon-graph icon-custom"></i>Gráfico de visitantes no ciclo atual</strong>
+                                        <span class="pull-right">29 de 1.000 visitas</span>  
+                                    </div>
+                                    <div class="graph-visitas">
+                                        <div class="progress" data-original-title="3%">
+                                            <div class="progress-bar progress-bar-success" style="width: 3%;"></div>
+                                        </div>
+                                        <div class="tooltip fade top in" style="width: 35px; top: -39px; left: 25%; margin-left: -25px;">
+                                            <div class="tooltip-arrow"></div>
+                                            <div class="tooltip-inner">3%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- linha -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="status-conta" id="planos">
+                    <h1>Planos disponíveis</h1>
+                    <table class="table tabela-planos">
+                        <thead>
+                            <tr>
+                                <th width="16.6%" class="plano-ativo">
+                                    <span class="plano-nome">Plano 1</span>
+                                    <span class="plano-valor">
+                                    <small class="muted">R$</small> 0,00
+                                    <small class="muted">/ mês</small>
+                                    </span>
+                                </th>
+                                <th width="16.6%" >
+                                    <span class="plano-nome">Plano 2</span>
+                                    <span class="plano-valor">
+                                    <s>R$ 59,00</s>
+                                    <small class="muted">R$</small> 29,00
+                                    <small class="muted">/ mês</small>
+                                    </span>
+                                </th>
+                                <th width="16.6%" >
+                                    <span class="plano-nome">Plano 3</span>
+                                    <span class="plano-valor">
+                                    <small class="muted">R$</small> 99,00
+                                    <small class="muted">/ mês</small>
+                                    </span>
+                                </th>
+                                <th width="16.6%" >
+                                    <span class="plano-nome">Plano 4</span>
+                                    <span class="plano-valor">
+                                    <small class="muted">R$</small> 199,00
+                                    <small class="muted">/ mês</small>
+                                    </span>
+                                </th>
+                                <th width="16.6%" >
+                                    <span class="plano-nome">Plano 5</span>
+                                    <span class="plano-valor">
+                                    <small class="muted">R$</small> 349,00
+                                    <small class="muted">/ mês</small>
+                                    </span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ntop-border"><span class="glyphicon glyphicon-ok"></span> 50 produtos</td>
+                                <td class="ntop-border"><span class="glyphicon glyphicon-ok"></span> 100 produtos</td>
+                                <td class="ntop-border"><span class="glyphicon glyphicon-ok"></span> 200 produtos</td>
+                                <td class="ntop-border"><span class="glyphicon glyphicon-ok"></span> 500 produtos</td>
+                                <td class="ntop-border"><span class="glyphicon glyphicon-ok"></span> 1.000 produtos</td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-ok"></span> 1.000 visitas</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 5.000 visitas</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 10.000 visitas</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 25.000 visitas</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 50.000 visitas</td>
+                            </tr>
+                            <tr>
+                                <td><span class="glyphicon glyphicon-ok"></span> 2,0 GB tráfego</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 4,0 GB tráfego</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 12,0 GB tráfego</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 36,0 GB tráfego</td>
+                                <td><span class="glyphicon glyphicon-ok"></span> 72,0 GB tráfego</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>
+                                    <button class="btn disabled" disabled="disabled"> Plano atual</button>
+                                </td>
+                                <td>
+                                    <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/plano/2/assinar" class="btn btn-primary">Assinar</a>
+                                </td>
+                                <td>
+                                    <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/plano/3/assinar" class="btn btn-primary">Assinar</a>
+                                </td>
+                                <td>
+                                    <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/plano/4/assinar" class="btn btn-primary">Assinar</a>
+                                </td>
+                                <td>
+                                    <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/plano/5/assinar" class="btn btn-primary">Assinar</a>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-6">
+                            <div class="custom-box">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h4>Precisa de um plano maior?</h4>
+                                        <p>Entre em contato conosco.</p>
+                                    </div>
+                                    <div class="col-sm-6 text-right">
+                                        <a href="//lojaintegrada.zendesk.com/anonymous_requests/new?ticket%5Bsubject%5D=Quero%20saber%20sobre%20planos%20maiores" target="_blank" class="btn btn-default">Solicitar novo plano</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box status-conta" id="faq">
+                        <div class="box-header">
+                            <h3 class="pull-left">Perguntas frequentes</h3>
+                        </div>
+                        <div class="box-content">
+                            <div class="pergunta">
+                                <h4>1. O plano gratuito é realmente de graça?</h4>
+                                <p>
+                                    Sim, ele permitirá que sua loja efetue vendas e obtenha lucro sem precisar investir nada.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>2. O que acontecerá quando eu atingir o limite do plano?</h4>
+                                <p>
+                                    Você receberá um email de aviso quando chegar em 80% do limite, receberá outros emails quando chegar em 85%, 90%, 95% e um último quando atingir o limite máximo. Se a sua loja atingir o limite do plano ela será suspensa e o seu cliente verá uma mensagem de "loja em manutenção". Para que sua loja não fique indisponível você deverá assinar um plano maior, caso não deseja assinar um plano maior a sua loja ficará suspensa até a finalização do ciclo atual da cobrança.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>3. Como funciona a assinatura de um plano pago?</h4>
+                                <p>
+                                    A assinatura de qualquer plano implica em renovação mensal automática até
+                                    que o cancelamento da conta seja efetuado. O pagamento do plano dependará
+                                    da forma de pagamento que foi selecionada ao preencher os
+                                    <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/dados/editar">dados de cobrança</a>.
+                                    Assim que o pagamento do plano for identificado, os limites do novo plano
+                                    serão aplicados na sua conta, estes limites ficarão disponíveis durante o
+                                    período de validade da cobrança e serão renovados quando o pagamento do
+                                    próximo ciclo for identificado.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>4. Como será cobrada a mensalidade dos planos pagos?</h4>
+                                <p>
+                                    A mensalidade será cobrada através de boleto bancário ou cartão de crédito, a forma de pagamento deve ser configurada na página <a href="<?php echo VIALOJA_PAINEL ?>/plataforma/conta/dados/editar">dados de cobrança</a>.
+                                </p>
+                                <p>
+                                    <em>Ao assinar um plano usando cartão de crédito você está autorizando que o valor do plano escolhido seja debitado automaticamente do seu cartão de crédito e autoriza também que o valor seja debitado mensalmente até que assine o plano gratuito ou efetue o cancelamento da sua conta.</em>
+                                </p>
+                                <p>
+                                    <em>Ao assinar um plano usando boleto bancário você receberá um boleto automaticamente no momento da assinatura do plano, com vencimento de 1 dia útil para frente, e receberá mensalmente os boletos no seu email para efetuar o pagamento mensal do plano, estes boletos também estarão disponíveis no painel de controle da sua loja.</em>
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>5. Posso migrar de plano a qualquer momento?</h4>
+                                <p>
+                                    Sim, durante as migrações de plano você pagará o valor do novo plano subtraido o valor proporcional aos dias que não foram usados no plano anterior.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>6. Qual a vantagem de estar em um plano gratuito?</h4>
+                                <p>
+                                    O lojista se beneficiará de características avançadas podendo direcionar seus investimos para marketing e outros fins. O plano gratuito também é a melhor forma de iniciar um negócio sem a necessidade de investimento inicial com a plataforma da sua loja virtual.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>7. Qual a vantagem de migrar para um plano pago?</h4>
+                                <p>
+                                    Basicamente para aumentar capacidade de visitas e produtos quando sua loja começar a ter mais movimento. Além disso os planos pagos permitem que você aceite a forma de pagamento Depósito bancário onde o seu cliente deposita o valor diretamente na sua conta e você gerencia a venda.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="pergunta">
+                                <h4>8. Posso cancelar o meu plano quando quiser?</h4>
+                                <p>
+                                    Sim, você pode cancelar assim que desejar, porém o valor do plano que foi pago não é reembolsável (Ex: loja cancelou no dia 20 e já pagou até o dia 30. Não haverá devolução dessa diferença de 10 dias).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box status-conta">
+                        <div class="box-header">
+                            <h3 class="pull-left">Cancelar conta</h3>
+                        </div>
+                        <div class="box-content">
+                            <p>
+                                Deseja cancelar a sua conta? &nbsp;
+                                <a class="btn btn-default btn-xs" href="/admin/plataforma/conta/cancelar">Sim, quero cancelar a minha conta</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /Full width content box -->
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <a href="http://admin.lojaintegrada.com.br" class="footer-logo"><img src="//cdn.awsli.com.br/static/whitelabel/lojaintegrada/img/logo-medio.png" alt="Loja Integrada" /></a>
+                <ul class="footer-menu">
+                    <li><a href="http://www.lojaintegrada.com.br/termos">Termos de uso</a></li>
+                    <li><a href="http://www.lojaintegrada.com.br/privacidade">Política de privacidade</a></li>
+                    <li><a href="//lojaintegrada.zendesk.com/anonymous_requests/new?ticket[subject]=Contato&email=joanilson_souza@outlook.com">Fale conosco</a></li>
+                </ul>
+                <p>
+                    Loja Integrada Plataforma de Loja Virtual LTDA
+                    <br />
+                    Todos os direitos reservados © 2014
+                </p>
+            </div>
+        </div>
+        <div id='modal-ajuda' class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3>Ajuda?</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Esta precisando de ajuda? <strong>Clique no botão de ajuda abaixo</strong>
+                            e entre no sistema de suporte da <strong>Loja Integrada</strong>,
+                            lá você vai encontrar tutoriais, perguntas frequentes e um formulário
+                            de contato, caso precisa tirar uma dúvida via o formulário de contato
+                            não se esqueça de informar o nome da sua loja
+                            <small class="muted">nome_da_loja.lojaintegrada.com.br</small> para
+                            agializar o antedimento.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        Fechar
+                        </a>
+                        <a href="http://suporte.lojaintegrada.com.br/" target="_blank" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-question-sign"></span>
+                        Obter ajuda
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="loading" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <h3 class="loading-text">Carregando...</h3>
+                        <img src="//cdn.awsli.com.br/static/admin/img/ajax-loader.gif" alt="Loading" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal-error" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h3 class="error-text"></h3>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Fechar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal-success" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h3 class="success-text"></h3>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Fechar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal-video" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3></h3>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer hide">
+                        <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Intercom -->
+        <script id="IntercomSettingsScriptTag">
+            window.intercomSettings = {
+              "contrato_id": "1",
+              "contrato_tipo": "revenda",
+              "user_id": "85906",
+              "user_hash": "e173ae6e6a9642b64319c2f780fa739ee6ce6db9e133669ea478b06aa1696cc3",
+              "email": "joanilson_souza@outlook.com",
+              "name": "Joanilson Souza",
+              "created_at": 1402193951,
+              "app_id": "abd37d48b17b58ede9748a8769f786b9a09ae619",
+              "company": {
+                  "id": "72238",
+                  "name": "gosts",
+                  "created_at": 1402193951,
+                  "plan": "1",
+                  "monthly_spend": 0,
+                  "upgraded_at": 1409178796
+              }
+            };
+        </script>
+        <script>
+            (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://static.intercomcdn.com/intercom.v1.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}};})()
+        </script>
+        <!-- Intercom -->
+        <!-- Inbenta Widget -->
+        <script type="text/javascript" src="http://zendesk-br.inbenta.com/js/InbentaSSE.js?project=zendesk_lojaintegrada_pt&type=widget&urltarget=new-tab&widgetalignment=right&zendeskBaseURL=https://suporte.lojaintegrada.com.br/hc/pt-br"></script>
+        <!-- End Inbenta Widget -->
+        <script type="text/javascript">
+            setTimeout(function(){var a=document.createElement("script");
+            var b=document.getElementsByTagName("script")[0];
+            a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0021/1977.js?"+Math.floor(new Date().getTime()/3600000);
+            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script>
+        <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-5.newrelic.com","queueTime":0,"licenseKey":"294ddb18dc","agent":"js-agent.newrelic.com/nr-411.min.js","transactionName":"ZVZRZkYCXxYCBUZbW1wcdUdaAEUMDAgdXl1QQB1HQApdFlkIV0U=","applicationID":"6702178","errorBeacon":"bam.nr-data.net","applicationTime":85}</script>
+    </body>
+</html>

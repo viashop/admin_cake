@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+Disallow: /error-404
+Disallow: /error-403
+Disallow: /estamos-de-olho
+Disallow: /static
+Disallow: /static/
+Disallow: /static/*
+Disallow: /cgi-bin
