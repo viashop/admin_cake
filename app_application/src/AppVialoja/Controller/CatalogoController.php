@@ -670,7 +670,27 @@ class CatalogoController extends AppController
                     'ShopProduto.modified' => 'DESC'
                 ),
 
-                'group' => array('ShopProduto.id_produto'),
+                'group' => array(
+                    'ShopProduto.id_produto',
+                    'ShopProduto.id_shop_default',
+                    'ShopProduto.tipo',
+                    'ShopProduto.ativo',
+                    'ShopProduto.usado',
+                    'ShopProduto.destaque',
+                    'ShopProduto.nome',
+                    'ShopProduto.sku',
+                    'ShopProduto.ncm',
+                    'ShopProduto.preco_sob_consulta',
+                    'ShopProduto.preco_custo',
+                    'ShopProduto.preco_cheio',
+                    'ShopProduto.preco_promocional',
+                    'ShopProduto.situacao_em_estoque',
+                    'ShopProduto.gerenciado',
+                    'ShopProduto.quantidade',
+                    'ShopProduto.reservado',
+                    'ShopProdutoImagem.nome_imagem',
+                    'ShopCategoria.nome_categoria',                    
+                    ),
                 'limit' => $this->limit,
 
                 'joins' => array(
